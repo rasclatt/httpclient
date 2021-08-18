@@ -1,0 +1,25 @@
+{
+    "name": "rasclatt/httpclient",
+    "type": "library",
+    "description": "Class Library For simple client connections",
+    "keywords": ["http","API","framework","mlm"],
+    "homepage": "https://github.com/rasclatt/httpclient",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Rayner",
+            "email": "rasclatt@me.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "rasclatt/nubersoft": "1.*",
+        "guzzlehttp/guzzle": "*"
+    },
+    "autoload": {
+		"psr-4": {
+			"HttpClient\\": "src/"
+		}
+	}
+}
